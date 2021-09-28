@@ -13,7 +13,7 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p>A 3rd year Computer Science Student at Amrita School of Engineering, Coimbatore.</p>
+                    <p>A final year Computer Science Student at Amrita School of Engineering, Coimbatore.</p>
                     <p>I love to build apps, optimize algorithms and develop solutions</p>
                     </div>
                 </div>
@@ -32,6 +32,14 @@ export default class About extends Component {
             </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
+                <div className="services color-3">
+                <div className="desc">
+                    <h3>Data Structures & Algorithms</h3>
+                    <p>I have a good understanding important data structures and algorithms.</p>
+                </div>
+                </div>
+            </div>
+            <div className="col-md-4 text-center animate-box">
                 <div className="services color-1">
                 <div className="desc">
                     <h3>Web Development</h3>
@@ -43,15 +51,7 @@ export default class About extends Component {
                 <div className="services color-3">
                 <div className="desc">
                     <h3>Application development</h3>
-                    <p>I have been the fullstack developer of various projects.</p>
-                </div>
-                </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
-                <div className="desc">
-                    <h3>Data Structures & Algorithms</h3>
-                    <p>I have a good understanding important data structures and algorithms.</p>
+                    <p>I have been the fullstack developer of various projects, as well as a part of fullstack development teams</p>
                 </div>
                 </div>
             </div>
@@ -59,7 +59,7 @@ export default class About extends Component {
                 <div className="services color-5">
                 <div className="desc">
                     <h3>Machine Learning</h3>
-                    <p>Although I cannot claim proficiency, I am well versed with important machine learning algorithms </p>
+                    <p>Although a beginner as yet, I am well versed with important machine learning algorithms </p>
                 </div>
                 </div>
             </div>
